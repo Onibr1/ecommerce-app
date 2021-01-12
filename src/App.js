@@ -11,12 +11,6 @@ import ShopPage from './pages/shop/shop.component';
 import Header from './components/header/header.component';
 import {auth, createUserProfileDocument} from './firebase/firebase.utils';
 import { setCurrentUser } from './redux/user/user.actions';
-// const HatsPage = () =>(
-// <div>
-//   <h1>HatsPage</h1>
-// </div>
-
-// );
 
 class App extends React.Component{
  
